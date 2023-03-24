@@ -37,6 +37,7 @@ type ProcessInfo struct {
 	Name      string    `json:"name"`
 	PID       int       `json:"pid"`
 	PPID      int       `json:"ppid"`
+	PPID_NAME string    `json: ppid_name`
 	CWD       string    `json:"cwd"`
 	Exe       string    `json:"exe"`
 	Args      []string  `json:"args"`
